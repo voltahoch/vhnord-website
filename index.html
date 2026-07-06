@@ -1,33 +1,201 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Voltahoch Nord UG</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Voltahoch Nord UG – Service mit Power</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:#111;
+color:white;
+}
+
+header{
+background:#000;
+padding:20px;
+position:sticky;
+top:0;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+max-width:1200px;
+margin:auto;
+}
+
+nav h1{
+font-size:32px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+}
+
+.hero{
+height:90vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),url("https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=80");
+background-size:cover;
+background-position:center;
+}
+
+.hero h2{
+font-size:60px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:22px;
+margin-bottom:30px;
+}
+
+.button{
+background:#d6b16b;
+padding:15px 35px;
+color:#000;
+font-weight:bold;
+text-decoration:none;
+border-radius:5px;
+}
+
+section{
+max-width:1200px;
+margin:auto;
+padding:80px 20px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.card{
+background:#1f1f1f;
+padding:30px;
+border-radius:10px;
+}
+
+footer{
+background:#000;
+padding:30px;
+text-align:center;
+}
+
+</style>
+
 </head>
+
 <body>
 
-<h1>Voltahoch Nord UG</h1>
+<header>
 
-<p>Service mit Power</p>
+<nav>
 
-<h2>Willkommen</h2>
+<h1>VOLTAHOCH NORD UG</h1>
+
+<div>
+
+<a href="#leistungen">Leistungen</a>
+
+<a href="#kontakt">Kontakt</a>
+
+</div>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h2>Service mit Power</h2>
 
 <p>
-Herzlich willkommen bei Voltahoch Nord UG.
-Wir sind Ihr zuverlässiger Partner für Bau-, Sanierungs- und Infrastrukturarbeiten.
+Ihr zuverlässiger Partner für Bau-, Sanierungs- und Infrastrukturarbeiten.
 </p>
+
+<a class="button" href="#kontakt">
+Jetzt Kontakt aufnehmen
+</a>
+
+</div>
+
+</section>
+
+<section id="leistungen">
+
+<h2>Unsere Leistungen</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Hoch- und Tiefbau</h3>
+<p>Maurer-, Beton- und Stahlbetonarbeiten.</p>
+</div>
+
+<div class="card">
+<h3>Sanierung</h3>
+<p>Abbruch-, Rückbau- und Sanierungsarbeiten.</p>
+</div>
+
+<div class="card">
+<h3>Straßenbau</h3>
+<p>Straßen-, Kabel- und Infrastrukturarbeiten.</p>
+</div>
+
+<div class="card">
+<h3>Gartenbau</h3>
+<p>Garten- und Landschaftsbau.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="kontakt">
 
 <h2>Kontakt</h2>
 
-<p>
-Massiullah Jawadi<br>
-Moorfleeter Straße 15<br>
-22113 Hamburg<br><br>
+<br>
 
-Telefon: 0176 135 829 45<br>
-E-Mail: kontakt@vhnord.de
-</p>
+<p><strong>Voltahoch Nord UG (haftungsbeschränkt)</strong></p>
+
+<p>Massiullah Jawadi</p>
+
+<p>Moorfleeter Straße 15</p>
+
+<p>22113 Hamburg</p>
+
+<p>☎ 0176 13582945</p>
+
+<p>✉ kontakt@vhnord.de</p>
+
+</section>
+
+<footer>
+
+© 2026 Voltahoch Nord UG – Service mit Power
+
+</footer>
 
 </body>
 </html>
