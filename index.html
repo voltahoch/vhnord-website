@@ -27,16 +27,33 @@
 </a>
 
 <nav class="hidden md:flex gap-8 font-medium">
-<a href="#leistungen" class="hover:text-yellow-600">Leistungen</a>
-
-<a href="#ueber-uns" class="hover:text-yellow-600">Über uns</a>
-
-<a href="#kontakt" class="hover:text-yellow-600">Kontakt</a>
+  <a href="#leistungen" class="hover:text-yellow-600">Leistungen</a>
+  <a href="#ueber-uns" class="hover:text-yellow-600">Über uns</a>
+  <a href="#kontakt" class="hover:text-yellow-600">Kontakt</a>
 </nav>
+
+<button id="menuBtn" class="md:hidden text-3xl">
+☰
+</button>
 
 </div>
 
 </header>
+<div id="mobileMenu" class="hidden bg-white shadow-lg">
+
+  <a href="#leistungen" class="block px-6 py-4 border-b">
+    Leistungen
+  </a>
+
+  <a href="#ueber-uns" class="block px-6 py-4 border-b">
+    Über uns
+  </a>
+
+  <a href="#kontakt" class="block px-6 py-4">
+    Kontakt
+  </a>
+
+</div>
 
 
 <!-- HERO -->
@@ -248,5 +265,13 @@ Nachricht senden
 
   </div>
 </footer>
+<script>
+const menuBtn = document.getElementById("menuBtn");
+const mobileMenu = document.getElementById("mobileMenu");
+
+menuBtn.addEventListener("click", () => {
+  mobileMenu.classList.toggle("hidden");
+});
+</script>
 </body>
 </html>
