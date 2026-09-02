@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Rückbau & Sanierung in Hamburg & deutschlandweit | Voltahoch Nord GmbH</title>
+
+  <meta name="description" content="Voltahoch Nord GmbH bietet professionelle Rückbau-, Entkernungs- und Sanierungsarbeiten in Hamburg und deutschlandweit.">
+
+  <link rel="canonical" href="https://vhnord.de/rueckbau-sanierung.html">
+
+  <link rel="icon" type="image/png" href="Logo Volta 1.png">
+  <link rel="apple-touch-icon" href="Logo Volta 1.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:title" content="Rückbau & Sanierung | Voltahoch Nord GmbH">
+  <meta property="og:description" content="Professionelle Rückbau-, Entkernungs- und Sanierungsarbeiten in Hamburg und deutschlandweit.">
+  <meta property="og:url" content="https://vhnord.de/rueckbau-sanierung.html">
+  <meta property="og:site_name" content="Voltahoch Nord GmbH">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1776594974744-60ecd826d06c?auto=format&fit=crop&w=1800&q=80">
+  <meta property="og:image:alt" content="Rückbauarbeiten auf einer Baustelle">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Rückbau & Sanierung | Voltahoch Nord GmbH">
+  <meta name="twitter:description" content="Professionelle Rückbau-, Entkernungs- und Sanierungsarbeiten in Hamburg und deutschlandweit.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1776594974744-60ecd826d06c?auto=format&fit=crop&w=1800&q=80">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-gray-900">
+
+  <!-- HEADER -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
+
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+      <a href="index.html#start" class="flex items-center">
+        <img
+          src="Logo Volta 1.png"
+          alt="Voltahoch Nord GmbH"
+          width="320"
+          height="160"
+          class="h-20 md:h-24 w-auto"
+        >
+      </a>
+
+      <nav class="hidden md:flex items-center gap-8 font-medium">
+
+        <a
+          href="index.html#start"
+          class="hover:text-yellow-500 transition"
+        >
+          Start
+        </a>
+
+        <a
+          href="index.html#ueber-uns"
+          class="hover:text-yellow-500 transition"
+        >
+          Über uns
+        </a>
+
+        <a
+          href="index.html#leistungen"
+          class="text-yellow-500"
+        >
+          Leistungen
+        </a>
+
+        <a
+          href="index.html#kontakt"
+          class="hover:text-yellow-500 transition"
+        >
+          Kontakt
+        </a>
+
+      </nav>
+
+      <a
+        href="index.html#kontakt"
+        class="hidden md:inline-block bg-yellow-400 hover:bg-yellow-300 text-black font-bold px-5 py-3 rounded-xl transition"
+      >
+        Projekt anfragen
+      </a>
+
+    </div>
+
+  </header>
+
+
+  <!-- HERO -->
+  <main>
+
+    <section class="relative pt-32 md:pt-40">
+
+      <div class="relative h-[430px] md:h-[560px] overflow-hidden">
+
+        <img
+          src="https://images.unsplash.com/photo-1776594974744-60ecd826d06c?auto=format&fit=crop&w=1800&q=80"
+          alt="Professionelle Rückbauarbeiten mit schwerem Baugerät"
+          class="absolute inset-0 w-full h-full object-cover"
+        >
+
+        <div class="absolute inset-0 bg-black/65"></div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-6 h-full flex items-center">
+
+          <div class="max-w-4xl text-white">
+
+            <a
+              href="index.html#leistungen"
+              class="inline-block mb-6 text-yellow-400 font-semibold hover:text-yellow-300 transition"
+            >
+              ← Zurück zu allen Leistungen
+            </a>
+
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+              Rückbau & Sanierung in Hamburg & deutschlandweit
+            </h1>
+
+            <p class="text-lg md:text-xl text-gray-200 max-w-3xl leading-relaxed">
+              Fachgerechte Rückbau-, Entkernungs- und Sanierungsarbeiten
+              für gewerbliche und bauliche Projekte.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- EINLEITUNG -->
+    <section class="py-20 md:py-24">
+
+      <div class="max-w-7xl mx-auto px-6">
+
+        <div class="grid md:grid-cols-2 gap-14 items-center">
+
+          <div>
+
+            <p class="text-yellow-500 font-bold uppercase tracking-wider mb-3">
+              Rückbau & Sanierung
+            </p>
+
+            <h2 class="text-3xl md:text-4xl font-extrabold mb-6">
+              Platz für Neues schaffen
+            </h2>
+
+            <p class="text-gray-600 text-lg leading-relaxed mb-6">
+              Bei Umbau-, Renovierungs- und Sanierungsprojekten sind häufig
+              umfangreiche Vorarbeiten erforderlich. Voltahoch Nord GmbH
+              unterstützt bei Rückbau-, Abbruch- und Entkernungsarbeiten
+              und schafft damit die Grundlage für die nächsten Bauphasen.
+            </p>
+
+            <p class="text-gray-600 text-lg leading-relaxed mb-6">
+              Dabei arbeiten wir strukturiert und stimmen die einzelnen
+              Arbeitsschritte auf die Anforderungen des jeweiligen Projekts ab.
+              Von einzelnen Rückbauarbeiten bis zur umfassenderen
+              Projektunterstützung bieten wir flexible Lösungen.
+            </p>
+
+            <p class="text-gray-600 text-lg leading-relaxed">
+              Unsere Leistungen stehen Kunden in Hamburg sowie
+              deutschlandweit zur Verfügung.
+            </p>
+
+          </div>
+
+
+          <div class="rounded-3xl overflow-hidden shadow-lg">
+
+            <img
+              src="https://images.unsplash.com/photo-1766524790689-1ac9de33106d?auto=format&fit=crop&w=1400&q=80"
+              alt="Bauarbeiter und schweres Gerät bei Rückbauarbeiten"
+              class="w-full h-[420px] object-cover"
+              loading="lazy"
+            >
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- LEISTUNGEN -->
+    <section class="bg-gray-100 py-20 md:py-24">
+
+      <div class="max-w-7xl mx-auto px-6">
+
+        <div class="max-w-3xl mb-12">
+
+          <p class="text-yellow-500 font-bold uppercase tracking-wider mb-3">
+            Unsere Leistungen
+          </p>
+
+          <h2 class="text-3xl md:text-4xl font-extrabold mb-5">
+            Rückbau und Sanierung nach Bedarf
+          </h2>
+
+          <p class="text-gray-600 text-lg leading-relaxed">
+            Wir unterstützen unterschiedliche Bauvorhaben mit
+            professionellen Rückbau- und vorbereitenden Arbeiten.
+          </p>
+
+        </div>
+
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+          <div class="bg-white rounded-2xl p-8 shadow-sm">
+
+            <div class="text-yellow-500 text-3xl font-bold mb-4">
+              01
+            </div>
+
+            <h3 class="text-xl font-bold mb-3">
+              Rückbauarbeiten
+            </h3>
+
+            <p class="text-gray-600 leading-relaxed">
+              Gezielter Rückbau vorhandener Bauteile und Bereiche
+              als Vorbereitung für weitere Bauarbeiten.
+            </p>
+
+          </div>
+
+
+          <div class="bg-white rounded-2xl p-8 shadow-sm">
+
+            <div class="text-yellow-500 text-3xl font-bold mb-4">
+              02
+            </div>
+
+            <h3 class="text-xl font-bold mb-3">
+              Entkernung
+            </h3>
+
+            <p class="text-gray-600 leading-relaxed">
+              Entkernung von Gebäuden und Innenbereichen
+              im Rahmen von Umbau- und Sanierungsprojekten.
+            </p>
+
+          </div>
+
+
+          <div class="bg-white rounded-2xl p-8 shadow-sm">
+
+            <div class="text-yellow-500 text-3xl font-bold mb-4">
+              03
+            </div>
+
+            <h3 class="text-xl font-bold mb-3">
+              Abbrucharbeiten
+            </h3>
+
+            <p class="text-gray-600 leading-relaxed">
+              Unterstützung bei geplanten Abbruch- und
+              Rückbauarbeiten auf unterschiedlichen Baustellen.
+            </p>
+
+          </div>
+
+
+          <div class="bg-white rounded-2xl p-8 shadow-sm">
+
+            <div class="text-yellow-500 text-3xl font-bold mb-4">
+              04
+            </div>
+
+            <h3 class="text-xl font-bold mb-3">
+              Demontage
+            </h3>
+
+            <p class="text-gray-600 leading-relaxed">
+              Demontage vorhandener Bauteile und Einrichtungen
+              entsprechend den Anforderungen des Projekts.
+            </p>
+
+          </div>
+
+
+          <div class="bg-white rounded-2xl p-8 shadow-sm">
+
+            <div class="text-yellow-500 text-3xl font-bold mb-4">
+              05
+            </div>
+
+            <h3 class="text-xl font-bold mb-3">
+              Bauvorbereitung
+            </h3>
+
+            <p class="text-gray-600 leading-relaxed">
+              Vorbereitung von Flächen und Bereichen für
+              nachfolgende Bau- und Renovierungsarbeiten.
+            </p>
+
+          </div>
+
+
+          <div class="bg-white rounded-2xl p-8 shadow-sm">
+
+            <div class="text-yellow-500 text-3xl font-bold mb-4">
+              06
+            </div>
+
+            <h3 class="text-xl font-bold mb-3">
+              Sanierungsunterstützung
+            </h3>
+
+            <p class="text-gray-600 leading-relaxed">
+              Flexible Unterstützung bei unterschiedlichen
+              Sanierungs- und Renovierungsprojekten.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- GROSSES BILD -->
+    <section class="py-20 md:py-24">
+
+      <div class="max-w-7xl mx-auto px-6">
+
+        <div class="relative rounded-3xl overflow-hidden h-[400px] md:h-[550px]">
+
+          <img
+            src="https://images.unsplash.com/photo-1776594974744-60ecd826d06c?auto=format&fit=crop&w=1800&q=80"
+            alt="Rückbauarbeiten mit Bagger auf einer Baustelle"
+            class="w-full h-full object-cover"
+            loading="lazy"
+          >
+
+          <div class="absolute inset-0 bg-black/50"></div>
+
+          <div class="absolute inset-0 flex items-center justify-center text-center px-6">
+
+            <div class="max-w-3xl text-white">
+
+              <p class="text-yellow-400 font-bold uppercase tracking-wider mb-4">
+                Professioneller Rückbau
+              </p>
+
+              <h2 class="text-3xl md:text-5xl font-extrabold mb-5">
+                Sicher und strukturiert in die nächste Bauphase
+              </h2>
+
+              <p class="text-lg text-gray-200">
+                Wir unterstützen bei der Vorbereitung von Gebäuden,
+                Flächen und Bauabschnitten für die weitere Nutzung
+                oder Sanierung.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- VORTEILE -->
+    <section class="bg-black text-white py-20 md:py-24">
+
+      <div class="max-w-7xl mx-auto px-6">
+
+        <div class="max-w-3xl mb-12">
+
+          <p class="text-yellow-400 font-bold uppercase tracking-wider mb-3">
+            Ihre Vorteile
+          </p>
+
+          <h2 class="text-3xl md:text-4xl font-extrabold mb-5">
+            Zuverlässige Unterstützung bei Rückbau & Sanierung
+          </h2>
+
+          <p class="text-gray-300 text-lg leading-relaxed">
+            Wir richten unsere Leistungen an den Anforderungen
+            des jeweiligen Projekts aus und bieten flexible
+            Unterstützung für unterschiedliche Bauvorhaben.
+          </p>
+
+        </div>
+
+
+        <div class="grid md:grid-cols-3 gap-6">
+
+          <div class="bg-white/10 rounded-2xl p-8">
+
+            <div class="text-yellow-400 text-3xl font-bold mb-4">
+              01
+            </div>
+
+            <h3 class="text-xl font-bold mb-3">
+              Strukturierte Abläufe
+            </h3>
+
+            <p class="text-gray-300 leading-relaxed">
+              Die einzelnen Arbeiten werden passend zum
+              jeweiligen Projekt abgestimmt und organisiert.
+            </p>
+
+          </div>
+
+
+          <div class="bg-white/10 rounded-2xl p-8">
+
+            <div class="text-yellow-400 text-3xl font-bold mb-4">
+              02
+            </div>
+
+            <h3 class="text-xl font-bold mb-3">
+              Flexible Leistungen
+            </h3>
+
+            <p class="text-gray-300 leading-relaxed">
+              Von einzelnen Arbeiten bis zur umfangreicheren
+              Unterstützung bei Bauprojekten.
+            </p>
+
+          </div>
+
+
+          <div class="bg-white/10 rounded-2xl p-8">
+
+            <div class="text-yellow-400 text-3xl font-bold mb-4">
+              03
+            </div>
+
+            <h3 class="text-xl font-bold mb-3">
+              Deutschlandweit
+            </h3>
+
+            <p class="text-gray-300 leading-relaxed">
+              Unser Standort ist Hamburg. Unsere Leistungen
+              bieten wir deutschlandweit an.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SANIERUNG -->
+    <section class="py-20 md:py-24">
+
+      <div class="max-w-7xl mx-auto px-6">
+
+        <div class="grid md:grid-cols-2 gap-14 items-center">
+
+          <div class="rounded-3xl overflow-hidden shadow-lg">
+
+            <img
+              src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=1400&q=80"
+              alt="Gebäude während Renovierungs- und Sanierungsarbeiten"
+              class="w-full h-[420px] object-cover"
+              loading="lazy"
+            >
+
+          </div>
+
+
+          <div>
+
+            <p class="text-yellow-500 font-bold uppercase tracking-wider mb-3">
+              Sanierungsprojekte
+            </p>
+
+            <h2 class="text-3xl md:text-4xl font-extrabold mb-6">
+              Vorbereitung für moderne Nutzung
+            </h2>
+
+            <p class="text-gray-600 text-lg leading-relaxed mb-6">
+              Gebäude und Räume verändern sich. Bei Renovierungen,
+              Umbauten und Sanierungen müssen bestehende Strukturen
+              häufig zunächst zurückgebaut oder angepasst werden.
+            </p>
+
+            <p class="text-gray-600 text-lg leading-relaxed mb-6">
+              Genau hier setzen unsere Leistungen an. Wir übernehmen
+              vorbereitende Arbeiten und unterstützen dabei, bestehende
+              Bereiche für die nächsten Bauabschnitte vorzubereiten.
+            </p>
+
+            <p class="text-gray-600 text-lg leading-relaxed">
+              Gerne besprechen wir mit Ihnen, welche Leistungen für
+              Ihr konkretes Projekt sinnvoll eingesetzt werden können.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- EINSATZBEREICHE -->
+    <section class="bg-gray-100 py-20 md:py-24">
+
+      <div class="max-w-7xl mx-auto px-6">
+
+        <div class="text-center max-w-3xl mx-auto mb-12">
+
+          <p class="text-yellow-500 font-bold uppercase tracking-wider mb-3">
+            Einsatzbereiche
+          </p>
+
+          <h2 class="text-3xl md:text-4xl font-extrabold mb-5">
+            Für unterschiedliche Bauvorhaben
+          </h2>
+
+          <p class="text-gray-600 text-lg">
+            Unsere Rückbau- und Sanierungsleistungen können
+            flexibel auf verschiedene Projekte abgestimmt werden.
+          </p>
+
+        </div>
+
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+          <div class="bg-white rounded-2xl p-7">
+
+            <h3 class="font-bold text-xl mb-3">
+              Gewerbeobjekte
+            </h3>
+
+            <p class="text-gray-600">
+              Rückbau und Entkernung in gewerblich genutzten
+              Gebäuden und Flächen.
+            </p>
+
+          </div>
+
+
+          <div class="bg-white rounded-2xl p-7">
+
+            <h3 class="font-bold text-xl mb-3">
+              Innenbereiche
+            </h3>
+
+            <p class="text-gray-600">
+              Vorbereitung von Räumen für Umbau,
+              Renovierung und neue Nutzung.
+            </p>
+
+          </div>
+
+
+          <div class="bg-white rounded-2xl p-7">
+
+            <h3 class="font-bold text-xl mb-3">
+              Umbauprojekte
+            </h3>
+
+            <p class="text-gray-600">
+              Rückbauarbeiten als Vorbereitung
+              für weitere Bauabschnitte.
+            </p>
+
+          </div>
+
+
+          <div class="bg-white rounded-2xl p-7">
+
+            <h3 class="font-bold text-xl mb-3">
+              Sanierungsprojekte
+            </h3>
+
+            <p class="text-gray-600">
+              Unterstützende Arbeiten im Rahmen
+              unterschiedlicher Sanierungsmaßnahmen.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CTA -->
+    <section class="bg-yellow-400 py-16 md:py-20">
+
+      <div class="max-w-5xl mx-auto px-6 text-center">
+
+        <h2 class="text-3xl md:text-4xl font-extrabold mb-5">
+          Sie planen einen Rückbau oder eine Sanierung?
+        </h2>
+
+        <p class="text-lg md:text-xl text-black/80 mb-8">
+          Sprechen Sie mit uns über Ihr Projekt in Hamburg
+          oder deutschlandweit.
+        </p>
+
+        <a
+          href="index.html#kontakt"
+          class="inline-block bg-black text-white font-bold px-8 py-4 rounded-xl hover:bg-gray-800 transition"
+        >
+          Projekt anfragen
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="bg-black text-white py-12">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="grid md:grid-cols-3 gap-10">
+
+        <div>
+
+          <img
+            src="Logo Volta 1.png"
+            alt="Voltahoch Nord GmbH"
+            width="320"
+            height="160"
+            class="h-20 w-auto mb-5"
+          >
+
+          <p class="text-gray-400 leading-relaxed">
+            Bau & Dienstleistungen in Hamburg und deutschlandweit.
+          </p>
+
+        </div>
+
+
+        <div>
+
+          <h3 class="font-bold text-lg mb-4">
+            Leistungen
+          </h3>
+
+          <ul class="space-y-2 text-gray-400">
+
+            <li>
+              <a
+                href="hoch-tiefbau.html"
+                class="hover:text-yellow-400 transition"
+              >
+                Hoch- & Tiefbau
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="rueckbau-sanierung.html"
+                class="hover:text-yellow-400 transition"
+              >
+                Rückbau & Sanierung
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="index.html#leistungen"
+                class="hover:text-yellow-400 transition"
+              >
+                Weitere Leistungen
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <div>
+
+          <h3 class="font-bold text-lg mb-4">
+            Kontakt
+          </h3>
+
+          <p class="text-gray-400 mb-2">
+            Moorfleeter Straße 15<br>
+            22113 Hamburg
+          </p>
+
+          <p class="text-gray-400 mb-2">
+            <a
+              href="tel:+4917613582945"
+              class="hover:text-yellow-400 transition"
+            >
+              0176 / 135 829 45
+            </a>
+          </p>
+
+          <p class="text-gray-400">
+            <a
+              href="mailto:kontakt@vhnord.de"
+              class="hover:text-yellow-400 transition"
+            >
+              kontakt@vhnord.de
+            </a>
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="border-t border-white/10 mt-10 pt-6 flex flex-col md:flex-row justify-between gap-4 text-sm text-gray-500">
+
+        <p>
+          © 2026 Voltahoch Nord GmbH
+        </p>
+
+        <div class="flex gap-5">
+
+          <a
+            href="impressum.html"
+            class="hover:text-yellow-400 transition"
+          >
+            Impressum
+          </a>
+
+          <a
+            href="datenschutz.html"
+            class="hover:text-yellow-400 transition"
+          >
+            Datenschutz
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+</body>
+</html>
