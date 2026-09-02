@@ -1,15 +1,18 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="de">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Voltahoch Nord GmbH – Bau, Sanierung & Dienstleistungen</title>
+  <title>Voltahoch Nord GmbH | Bau, Sanierung & Dienstleistungen in Hamburg</title>
 
   <meta
     name="description"
-    content="Voltahoch Nord GmbH – Ihr zuverlässiger Partner für Bau, Sanierung, Gebäudereinigung, Transport, Logistik, IT und Consulting."
+    content="Voltahoch Nord GmbH in Hamburg – Bau, Sanierung, Rückbau, Gerüstbau, Gebäudereinigung, Garten- und Landschaftsbau, Transport, Logistik, IT und Consulting."
   >
+
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#111111">
 
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
@@ -23,7 +26,12 @@
     <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-3">
 
       <!-- LOGO -->
-      <a href="#start" class="flex items-center" aria-label="Voltahoch Nord GmbH Startseite">
+
+      <a
+        href="#start"
+        class="flex items-center"
+        aria-label="Voltahoch Nord GmbH Startseite"
+      >
         <img
           src="Logo Volta 1.png"
           alt="Voltahoch Nord GmbH Logo"
@@ -32,23 +40,37 @@
       </a>
 
       <!-- DESKTOP NAVIGATION -->
-      <nav class="hidden md:flex gap-8 font-medium" aria-label="Hauptnavigation">
 
-        <a href="#leistungen" class="hover:text-yellow-600 transition">
+      <nav
+        class="hidden md:flex items-center gap-8 font-medium"
+        aria-label="Hauptnavigation"
+      >
+
+        <a
+          href="#leistungen"
+          class="hover:text-yellow-600 transition"
+        >
           Leistungen
         </a>
 
-        <a href="#ueber-uns" class="hover:text-yellow-600 transition">
+        <a
+          href="#ueber-uns"
+          class="hover:text-yellow-600 transition"
+        >
           Über uns
         </a>
 
-        <a href="#kontakt" class="hover:text-yellow-600 transition">
+        <a
+          href="#kontakt"
+          class="bg-yellow-500 hover:bg-yellow-600 text-black px-5 py-2.5 rounded-full transition font-semibold"
+        >
           Kontakt
         </a>
 
       </nav>
 
       <!-- MOBILE MENU BUTTON -->
+
       <button
         id="menuBtn"
         type="button"
@@ -86,7 +108,7 @@
 
       <a
         href="#kontakt"
-        class="mobile-link block px-6 py-4 hover:bg-gray-100"
+        class="mobile-link block px-6 py-4 hover:bg-gray-100 font-semibold"
       >
         Kontakt
       </a>
@@ -94,6 +116,7 @@
     </nav>
 
   </header>
+
 
   <!-- HERO -->
 
@@ -109,29 +132,44 @@
         class="absolute inset-0 w-full h-full object-cover"
       >
 
-      <div class="absolute inset-0 bg-black/60"></div>
+      <div class="absolute inset-0 bg-black/65"></div>
 
-      <div class="relative z-10 max-w-4xl px-6 text-white pt-20">
+      <div class="relative z-10 max-w-5xl px-6 text-white pt-24">
+
+        <div class="inline-block bg-yellow-500 text-black px-5 py-2 rounded-full font-semibold text-sm mb-6">
+          Service mit Power
+        </div>
 
         <h1 class="text-4xl sm:text-5xl md:text-7xl font-bold leading-tight">
           Voltahoch Nord GmbH
         </h1>
 
-        <p class="text-xl md:text-2xl mt-8">
-          Ihr zuverlässiger Partner für Bau, Sanierung und Dienstleistungen.
+        <p class="text-xl md:text-3xl mt-7 font-medium">
+          Bau. Sanierung. Dienstleistungen.
         </p>
 
-        <p class="mt-6 text-lg text-gray-200 leading-8">
-          Von Hoch- und Tiefbau über Rückbau, Gebäudereinigung und Transport
-          bis hin zu professionellen Dienstleistungen aus einer Hand.
+        <p class="mt-6 text-lg md:text-xl text-gray-200 leading-8 max-w-3xl mx-auto">
+          Ihr zuverlässiger Partner für Bau, Sanierung und professionelle
+          Dienstleistungen in Hamburg und Umgebung.
         </p>
 
-        <a
-          href="#kontakt"
-          class="inline-block mt-10 bg-yellow-500 hover:bg-yellow-600 transition px-8 py-4 rounded-full font-semibold text-black"
-        >
-          Jetzt Kontakt aufnehmen
-        </a>
+        <div class="flex flex-col sm:flex-row justify-center gap-4 mt-10">
+
+          <a
+            href="#kontakt"
+            class="bg-yellow-500 hover:bg-yellow-600 transition px-8 py-4 rounded-full font-semibold text-black"
+          >
+            Jetzt Anfrage senden
+          </a>
+
+          <a
+            href="#leistungen"
+            class="border-2 border-white hover:bg-white hover:text-black transition px-8 py-4 rounded-full font-semibold"
+          >
+            Unsere Leistungen
+          </a>
+
+        </div>
 
       </div>
 
@@ -142,27 +180,73 @@
 
     <section id="ueber-uns" class="bg-white py-20">
 
-      <div class="max-w-5xl mx-auto px-6 text-center">
+      <div class="max-w-6xl mx-auto px-6">
 
-        <h2 class="text-4xl font-bold mb-8">
-          Über uns
-        </h2>
+        <div class="text-center mb-12">
 
-        <p class="text-lg leading-8 text-gray-700">
-          Die Voltahoch Nord GmbH ist Ihr zuverlässiger Partner für
-          anspruchsvolle Bauprojekte und professionelle Dienstleistungen.
-          Unser Leistungsspektrum reicht von Hoch- und Tiefbau,
-          Maurer- und Betonarbeiten über Rückbau, Sanierung und Gerüstbau
-          bis hin zu Garten- und Landschaftsbau, Gebäudereinigung,
-          Transport- und Logistikdienstleistungen sowie IT- und
-          Consulting-Lösungen für Unternehmen.
-        </p>
+          <p class="text-yellow-600 font-semibold uppercase tracking-wide">
+            Über Voltahoch Nord
+          </p>
 
-        <p class="text-lg leading-8 text-gray-700 mt-8">
-          Qualität, Zuverlässigkeit und Termintreue stehen für uns an erster
-          Stelle. Mit erfahrenen Fachkräften und modernen Arbeitsmethoden
-          setzen wir Projekte effizient und professionell um.
-        </p>
+          <h2 class="text-4xl md:text-5xl font-bold mt-3">
+            Zuverlässig. Professionell. Vielseitig.
+          </h2>
+
+        </div>
+
+        <div class="max-w-4xl mx-auto text-center">
+
+          <p class="text-lg leading-8 text-gray-700">
+            Die Voltahoch Nord GmbH ist Ihr zuverlässiger Partner für
+            anspruchsvolle Bauprojekte und professionelle Dienstleistungen.
+            Unser Leistungsspektrum reicht von Hoch- und Tiefbau,
+            Maurer- und Betonarbeiten über Rückbau, Sanierung und Gerüstbau
+            bis hin zu Garten- und Landschaftsbau, Gebäudereinigung,
+            Transport- und Logistikdienstleistungen sowie IT- und
+            Consulting-Lösungen für Unternehmen.
+          </p>
+
+          <p class="text-lg leading-8 text-gray-700 mt-8">
+            Qualität, Zuverlässigkeit und Termintreue stehen für uns an erster
+            Stelle. Mit erfahrenen Fachkräften und modernen Arbeitsmethoden
+            setzen wir Projekte effizient und professionell um.
+          </p>
+
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6 mt-14">
+
+          <div class="bg-gray-100 rounded-2xl p-7 text-center">
+            <div class="text-4xl mb-4">✓</div>
+            <h3 class="font-bold text-xl mb-2">
+              Zuverlässigkeit
+            </h3>
+            <p class="text-gray-600">
+              Verlässliche Umsetzung und klare Kommunikation.
+            </p>
+          </div>
+
+          <div class="bg-gray-100 rounded-2xl p-7 text-center">
+            <div class="text-4xl mb-4">🏗️</div>
+            <h3 class="font-bold text-xl mb-2">
+              Vielseitige Leistungen
+            </h3>
+            <p class="text-gray-600">
+              Viele Dienstleistungen aus einer Hand.
+            </p>
+          </div>
+
+          <div class="bg-gray-100 rounded-2xl p-7 text-center">
+            <div class="text-4xl mb-4">⭐</div>
+            <h3 class="font-bold text-xl mb-2">
+              Qualität
+            </h3>
+            <p class="text-gray-600">
+              Professionelles Arbeiten mit hohem Anspruch.
+            </p>
+          </div>
+
+        </div>
 
       </div>
 
@@ -171,20 +255,41 @@
 
     <!-- LEISTUNGEN -->
 
-    <section id="leistungen" class="max-w-7xl mx-auto py-20 px-6">
+    <section
+      id="leistungen"
+      class="max-w-7xl mx-auto py-20 px-6"
+    >
 
-      <h2 class="text-4xl font-bold text-center mb-12">
-        Unsere Leistungen
-      </h2>
+      <div class="text-center mb-12">
+
+        <p class="text-yellow-600 font-semibold uppercase tracking-wide">
+          Was wir anbieten
+        </p>
+
+        <h2 class="text-4xl md:text-5xl font-bold mt-3">
+          Unsere Leistungen
+        </h2>
+
+        <p class="text-gray-600 text-lg mt-5 max-w-2xl mx-auto">
+          Professionelle Lösungen für Bau, Gewerbe und Unternehmen.
+        </p>
+
+      </div>
+
 
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
-        <!-- Leistung 1 -->
 
-        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition">
+        <!-- LEISTUNG 1 -->
+
+        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl hover:-translate-y-1 transition">
+
+          <div class="text-4xl mb-5">
+            🏗️
+          </div>
 
           <h3 class="text-xl font-bold mb-4">
-            🏗️ Hoch- & Tiefbau
+            Hoch- & Tiefbau
           </h3>
 
           <p class="text-gray-700 leading-7">
@@ -196,12 +301,16 @@
         </div>
 
 
-        <!-- Leistung 2 -->
+        <!-- LEISTUNG 2 -->
 
-        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition">
+        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl hover:-translate-y-1 transition">
+
+          <div class="text-4xl mb-5">
+            🏚️
+          </div>
 
           <h3 class="text-xl font-bold mb-4">
-            🏚️ Rückbau & Sanierung
+            Rückbau & Sanierung
           </h3>
 
           <p class="text-gray-700 leading-7">
@@ -213,12 +322,16 @@
         </div>
 
 
-        <!-- Leistung 3 -->
+        <!-- LEISTUNG 3 -->
 
-        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition">
+        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl hover:-translate-y-1 transition">
+
+          <div class="text-4xl mb-5">
+            🏗️
+          </div>
 
           <h3 class="text-xl font-bold mb-4">
-            🏗️ Gerüstbau
+            Gerüstbau
           </h3>
 
           <p class="text-gray-700 leading-7">
@@ -229,12 +342,16 @@
         </div>
 
 
-        <!-- Leistung 4 -->
+        <!-- LEISTUNG 4 -->
 
-        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition">
+        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl hover:-translate-y-1 transition">
+
+          <div class="text-4xl mb-5">
+            🌳
+          </div>
 
           <h3 class="text-xl font-bold mb-4">
-            🌳 Garten- & Landschaftsbau
+            Garten- & Landschaftsbau
           </h3>
 
           <p class="text-gray-700 leading-7">
@@ -245,12 +362,16 @@
         </div>
 
 
-        <!-- Leistung 5 -->
+        <!-- LEISTUNG 5 -->
 
-        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition">
+        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl hover:-translate-y-1 transition">
+
+          <div class="text-4xl mb-5">
+            🚚
+          </div>
 
           <h3 class="text-xl font-bold mb-4">
-            🚚 Transport & Logistik
+            Transport & Logistik
           </h3>
 
           <p class="text-gray-700 leading-7">
@@ -261,12 +382,16 @@
         </div>
 
 
-        <!-- Leistung 6 -->
+        <!-- LEISTUNG 6 -->
 
-        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition">
+        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl hover:-translate-y-1 transition">
+
+          <div class="text-4xl mb-5">
+            💻
+          </div>
 
           <h3 class="text-xl font-bold mb-4">
-            💻 IT & Consulting
+            IT & Consulting
           </h3>
 
           <p class="text-gray-700 leading-7">
@@ -281,74 +406,122 @@
     </section>
 
 
+    <!-- CTA -->
+
+    <section class="bg-yellow-500 py-16">
+
+      <div class="max-w-5xl mx-auto px-6 text-center">
+
+        <h2 class="text-3xl md:text-4xl font-bold text-black">
+          Sie haben ein Projekt?
+        </h2>
+
+        <p class="text-lg text-black/80 mt-4">
+          Sprechen Sie uns an – wir freuen uns auf Ihre Anfrage.
+        </p>
+
+        <a
+          href="#kontakt"
+          class="inline-block mt-8 bg-black text-white px-8 py-4 rounded-full font-semibold hover:bg-zinc-800 transition"
+        >
+          Projekt besprechen
+        </a>
+
+      </div>
+
+    </section>
+
+
     <!-- KONTAKT -->
 
-    <section id="kontakt" class="bg-zinc-900 text-white py-20">
+    <section
+      id="kontakt"
+      class="bg-zinc-900 text-white py-20"
+    >
 
       <div class="max-w-6xl mx-auto px-6">
 
-        <div class="text-center">
+        <div class="text-center mb-12">
 
-          <h2 class="text-4xl font-bold mb-8">
+          <p class="text-yellow-500 font-semibold uppercase tracking-wide">
             Kontakt
-          </h2>
-
-          <p class="text-lg text-gray-300 mb-12">
-            Wir freuen uns auf Ihre Anfrage.
           </p>
+
+          <h2 class="text-4xl md:text-5xl font-bold mt-3">
+            Wir freuen uns auf Ihre Anfrage
+          </h2>
 
         </div>
 
 
         <div class="grid md:grid-cols-2 gap-12">
 
+
           <!-- KONTAKTDATEN -->
 
           <div>
 
-            <h3 class="text-2xl font-bold mb-6">
+            <h3 class="text-2xl font-bold mb-3">
               Voltahoch Nord GmbH
             </h3>
 
-            <p class="text-yellow-500 font-semibold mb-6">
+            <p class="text-yellow-500 font-semibold mb-8">
               Service mit Power
             </p>
 
-            <p class="mb-5 text-gray-300">
-              Moorfleeter Straße 15<br>
-              22113 Hamburg
-            </p>
+            <div class="space-y-6">
 
-            <p class="mb-5">
+              <div>
 
-              <span class="mr-2">📞</span>
+                <p class="text-sm text-gray-400 mb-1">
+                  Adresse
+                </p>
 
-              <a
-                href="tel:+4917613582945"
-                class="hover:text-yellow-500 transition"
-              >
-                0176 / 135 829 45
-              </a>
+                <p class="text-lg">
+                  Moorfleeter Straße 15<br>
+                  22113 Hamburg
+                </p>
 
-            </p>
+              </div>
 
-            <p class="mb-8">
 
-              <span class="mr-2">✉️</span>
+              <div>
 
-              <a
-                href="mailto:kontakt@vhnord.de"
-                class="hover:text-yellow-500 transition"
-              >
-                kontakt@vhnord.de
-              </a>
+                <p class="text-sm text-gray-400 mb-1">
+                  Telefon
+                </p>
 
-            </p>
+                <a
+                  href="tel:+4917613582945"
+                  class="text-lg hover:text-yellow-500 transition"
+                >
+                  📞 0176 / 135 829 45
+                </a>
+
+              </div>
+
+
+              <div>
+
+                <p class="text-sm text-gray-400 mb-1">
+                  E-Mail
+                </p>
+
+                <a
+                  href="mailto:kontakt@vhnord.de"
+                  class="text-lg hover:text-yellow-500 transition"
+                >
+                  ✉️ kontakt@vhnord.de
+                </a>
+
+              </div>
+
+            </div>
 
 
             <!-- GOOGLE MAP -->
 
-            <div class="rounded-xl overflow-hidden">
+            <div class="rounded-2xl overflow-hidden mt-10 shadow-xl">
 
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2371.2897054150712!2d10.096036476517789!3d53.53474127234449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18d2d2ca5c269%3A0x14ca6498e72486d1!2sMoorfleeter%20Str.%2015%2C%2022113%20Hamburg!5e0!3m2!1sde!2sde!4v1783361736194!5m2!1sde!2sde"
@@ -368,7 +541,7 @@
 
           <!-- KONTAKTFORMULAR -->
 
-          <div>
+          <div class="bg-white text-gray-800 rounded-2xl p-8 shadow-xl">
 
             <h3 class="text-2xl font-bold mb-6">
               Anfrage senden
@@ -396,7 +569,7 @@
                   type="text"
                   placeholder="Ihr Name"
                   required
-                  class="w-full p-3 rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-yellow-500"
+                  class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-500"
                 >
 
               </div>
@@ -417,7 +590,7 @@
                   type="email"
                   placeholder="Ihre E-Mail-Adresse"
                   required
-                  class="w-full p-3 rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-yellow-500"
+                  class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-500"
                 >
 
               </div>
@@ -438,7 +611,7 @@
                   placeholder="Ihre Nachricht"
                   rows="6"
                   required
-                  class="w-full p-3 rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-yellow-500"
+                  class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-500"
                 ></textarea>
 
               </div>
@@ -453,7 +626,7 @@
 
             </form>
 
-            <p class="text-sm text-gray-400 mt-4">
+            <p class="text-sm text-gray-500 mt-4">
               Hinweis: Das Formular öffnet das E-Mail-Programm des Besuchers.
             </p>
 
@@ -466,6 +639,7 @@
     </section>
 
   </main>
+
 
   <!-- FOOTER -->
 
@@ -501,6 +675,7 @@
 
   </footer>
 
+
   <!-- JAVASCRIPT -->
 
   <script>
@@ -517,6 +692,11 @@
 
       menuBtn.setAttribute("aria-expanded", isOpen);
 
+      menuBtn.setAttribute(
+        "aria-label",
+        isOpen ? "Menü schließen" : "Menü öffnen"
+      );
+
       menuBtn.textContent = isOpen ? "✕" : "☰";
 
     });
@@ -529,6 +709,8 @@
         mobileMenu.classList.add("hidden");
 
         menuBtn.setAttribute("aria-expanded", "false");
+
+        menuBtn.setAttribute("aria-label", "Menü öffnen");
 
         menuBtn.textContent = "☰";
 
