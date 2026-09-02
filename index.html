@@ -100,12 +100,79 @@
         aria-label="Hauptnavigation"
       >
 
-        <a
-          href="#leistungen"
-          class="hover:text-yellow-600 transition"
-        >
-          Leistungen
-        </a>
+        <!-- LEISTUNGEN DROPDOWN -->
+
+        <div class="relative group">
+
+          <a
+            href="#leistungen"
+            class="hover:text-yellow-600 transition inline-flex items-center gap-1 py-3"
+          >
+            Leistungen
+            <span class="text-sm">▾</span>
+          </a>
+
+          <div class="absolute left-0 top-full pt-2 hidden group-hover:block z-50">
+
+            <div class="w-72 bg-white rounded-xl shadow-xl border border-gray-200 overflow-hidden">
+
+              <a
+                href="hoch-tiefbau.html"
+                class="block px-5 py-3 hover:bg-yellow-400 transition"
+              >
+                Hoch- & Tiefbau
+              </a>
+
+              <a
+                href="rueckbau-sanierung.html"
+                class="block px-5 py-3 hover:bg-yellow-400 transition"
+              >
+                Rückbau & Sanierung
+              </a>
+
+              <a
+                href="geruestbau.html"
+                class="block px-5 py-3 hover:bg-yellow-400 transition"
+              >
+                Gerüstbau
+              </a>
+
+              <a
+                href="garten-landschaftsbau.html"
+                class="block px-5 py-3 hover:bg-yellow-400 transition"
+              >
+                Garten- & Landschaftsbau
+              </a>
+
+              <a
+                href="transport-logistik.html"
+                class="block px-5 py-3 hover:bg-yellow-400 transition"
+              >
+                Transport & Logistik
+              </a>
+
+              <a
+                href="it-consulting.html"
+                class="block px-5 py-3 hover:bg-yellow-400 transition"
+              >
+                IT & Consulting
+              </a>
+
+              <a
+                href="gebaeudereinigung.html"
+                class="block px-5 py-3 hover:bg-yellow-400 transition"
+              >
+                Gebäudereinigung
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- ÜBER UNS -->
 
         <a
           href="#ueber-uns"
@@ -113,6 +180,9 @@
         >
           Über uns
         </a>
+
+
+        <!-- KONTAKT -->
 
         <a
           href="#kontakt"
@@ -122,6 +192,7 @@
         </a>
 
       </nav>
+
 
       <!-- MOBILE MENU BUTTON -->
 
@@ -138,6 +209,7 @@
 
     </div>
 
+
     <!-- MOBILE NAVIGATION -->
 
     <nav
@@ -146,12 +218,89 @@
       aria-label="Mobile Navigation"
     >
 
-      <a
-        href="#leistungen"
-        class="mobile-link block px-6 py-4 border-b hover:bg-gray-100"
-      >
-        Leistungen
-      </a>
+      <!-- MOBILE LEISTUNGEN -->
+
+      <div class="border-b">
+
+        <button
+          id="mobileLeistungenBtn"
+          type="button"
+          class="w-full flex justify-between items-center px-6 py-4 hover:bg-gray-100 font-medium"
+          aria-expanded="false"
+          aria-controls="mobileLeistungen"
+        >
+          <span>Leistungen</span>
+          <span id="mobileLeistungenArrow">▾</span>
+        </button>
+
+
+        <div
+          id="mobileLeistungen"
+          class="hidden bg-gray-50"
+        >
+
+          <a
+            href="hoch-tiefbau.html"
+            class="mobile-link block px-10 py-3 border-t hover:bg-yellow-100"
+          >
+            Hoch- & Tiefbau
+          </a>
+
+          <a
+            href="rueckbau-sanierung.html"
+            class="mobile-link block px-10 py-3 border-t hover:bg-yellow-100"
+          >
+            Rückbau & Sanierung
+          </a>
+
+          <a
+            href="geruestbau.html"
+            class="mobile-link block px-10 py-3 border-t hover:bg-yellow-100"
+          >
+            Gerüstbau
+          </a>
+
+          <a
+            href="garten-landschaftsbau.html"
+            class="mobile-link block px-10 py-3 border-t hover:bg-yellow-100"
+          >
+            Garten- & Landschaftsbau
+          </a>
+
+          <a
+            href="transport-logistik.html"
+            class="mobile-link block px-10 py-3 border-t hover:bg-yellow-100"
+          >
+            Transport & Logistik
+          </a>
+
+          <a
+            href="it-consulting.html"
+            class="mobile-link block px-10 py-3 border-t hover:bg-yellow-100"
+          >
+            IT & Consulting
+          </a>
+
+          <a
+            href="gebaeudereinigung.html"
+            class="mobile-link block px-10 py-3 border-t hover:bg-yellow-100"
+          >
+            Gebäudereinigung
+          </a>
+
+          <a
+            href="#leistungen"
+            class="mobile-link block px-10 py-3 border-t hover:bg-yellow-100 font-semibold"
+          >
+            Alle Leistungen ansehen
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- ÜBER UNS -->
 
       <a
         href="#ueber-uns"
@@ -159,6 +308,9 @@
       >
         Über uns
       </a>
+
+
+      <!-- KONTAKT -->
 
       <a
         href="#kontakt"
@@ -822,23 +974,62 @@
     const mobileMenu = document.getElementById("mobileMenu");
     const mobileLinks = document.querySelectorAll(".mobile-link");
 
+    const mobileLeistungenBtn =
+      document.getElementById("mobileLeistungenBtn");
+
+    const mobileLeistungen =
+      document.getElementById("mobileLeistungen");
+
+    const mobileLeistungenArrow =
+      document.getElementById("mobileLeistungenArrow");
+
+
+    /* HAUPT-MOBILE-MENÜ */
+
     menuBtn.addEventListener("click", () => {
 
       mobileMenu.classList.toggle("hidden");
 
-      const isOpen = !mobileMenu.classList.contains("hidden");
+      const isOpen =
+        !mobileMenu.classList.contains("hidden");
 
-      menuBtn.setAttribute("aria-expanded", isOpen);
+      menuBtn.setAttribute(
+        "aria-expanded",
+        isOpen
+      );
 
       menuBtn.setAttribute(
         "aria-label",
         isOpen ? "Menü schließen" : "Menü öffnen"
       );
 
-      menuBtn.textContent = isOpen ? "✕" : "☰";
+      menuBtn.textContent =
+        isOpen ? "✕" : "☰";
 
     });
 
+
+    /* MOBILE LEISTUNGEN AUFKLAPPEN */
+
+    mobileLeistungenBtn.addEventListener("click", () => {
+
+      mobileLeistungen.classList.toggle("hidden");
+
+      const isOpen =
+        !mobileLeistungen.classList.contains("hidden");
+
+      mobileLeistungenBtn.setAttribute(
+        "aria-expanded",
+        isOpen
+      );
+
+      mobileLeistungenArrow.textContent =
+        isOpen ? "▴" : "▾";
+
+    });
+
+
+    /* MOBILE LINKS SCHLIESSEN MENÜ */
 
     mobileLinks.forEach((link) => {
 
@@ -846,9 +1037,24 @@
 
         mobileMenu.classList.add("hidden");
 
-        menuBtn.setAttribute("aria-expanded", "false");
+        mobileLeistungen.classList.add("hidden");
 
-        menuBtn.setAttribute("aria-label", "Menü öffnen");
+        mobileLeistungenBtn.setAttribute(
+          "aria-expanded",
+          "false"
+        );
+
+        mobileLeistungenArrow.textContent = "▾";
+
+        menuBtn.setAttribute(
+          "aria-expanded",
+          "false"
+        );
+
+        menuBtn.setAttribute(
+          "aria-label",
+          "Menü öffnen"
+        );
 
         menuBtn.textContent = "☰";
 
