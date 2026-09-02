@@ -14,6 +14,13 @@
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#111111">
 
+  <link rel="canonical" href="https://vhnord.de/">
+
+  <!-- FAVICON -->
+  <link rel="icon" type="image/png" href="Logo Volta 1.png">
+  <link rel="apple-touch-icon" href="Logo Volta 1.png">
+
+  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -36,6 +43,9 @@
           src="Logo Volta 1.png"
           alt="Voltahoch Nord GmbH Logo"
           class="h-16 md:h-20 w-auto"
+          width="320"
+          height="160"
+          fetchpriority="high"
         >
       </a>
 
@@ -124,12 +134,16 @@
 
     <section
       class="relative min-h-screen flex items-center justify-center text-center overflow-hidden"
+      aria-label="Voltahoch Nord GmbH"
     >
 
       <img
         src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1800&q=80"
         alt="Professionelle Bauarbeiten"
         class="absolute inset-0 w-full h-full object-cover"
+        width="1800"
+        height="1200"
+        fetchpriority="high"
       >
 
       <div class="absolute inset-0 bg-black/65"></div>
@@ -569,6 +583,7 @@
                   type="text"
                   placeholder="Ihr Name"
                   required
+                  autocomplete="name"
                   class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-500"
                 >
 
@@ -590,6 +605,7 @@
                   type="email"
                   placeholder="Ihre E-Mail-Adresse"
                   required
+                  autocomplete="email"
                   class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-500"
                 >
 
