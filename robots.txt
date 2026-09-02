@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vhnord.de/sitemap.xml
